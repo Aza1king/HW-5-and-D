@@ -1,0 +1,64 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: background-color 0.5s ease; 
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+
+@media (min-width: 768px) {
+    ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    li {
+        flex: 1;
+        margin: 0;
+    }
+}
+
+
+.green {
+    background-color: #8BC34A;
+    color: #fff;
+}
+
+.red {
+    background-color: #F44336;
+    color: #fff;
+}
+
+.orange {
+    background-color: #FF9800;
+    color: #fff;
+}
+
+.blue {
+    background-color: #2196F3;
+    color: #fff;
+}
+
+.white {
+    background-color: #FFFFFF;
+    color: #000;
+}
+
+.car {
+    background-color: #607D8B;
+    color: #fff;
+}
